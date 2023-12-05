@@ -134,7 +134,7 @@ driver = mysqli
 host = localhost
 username = root
 password =
-name = omp314
+name = omp3
 
 ; Set the non-standard port and/or socket, if used
 ; port = 3306

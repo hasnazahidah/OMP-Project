@@ -2,10 +2,10 @@
 // index.php
 
 // API endpoint
-$api_url = 'http://localhost/omp-314%20-%20Copy/index.php/omp3/api/v1/submissions';
+$api_url = 'http://localhost/omp-3.3/index.php/OMP/api/v1/_submissions';
 
 // Authentication token
-$token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.ImFmY2VmNzQ0MTM1NjYzMGVmOWYzNDM4NTAzNjM4NWExZGZhNzE0NzEi.A8M5P5wors34lX1MDCGhQj2Q-zBPKOwdwzKaMlM9k4o';
+$token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjFjZDE2YjU5MmE0YzIyNWYyYWRiMzNjZTVlMmJmNzI5MGM4NDg1NmUi.rKcfYjyUaSaM8fASSvpM95pDRvI5QVPTAikpeV9drEs';
 
 // Set up headers with the token using cURL
 $ch = curl_init($api_url);
